@@ -264,8 +264,12 @@ p {
 	visibility: visible;
 	opacity: 1;
 	z-index: 1;
+} */
+
+.fp-tablecell {
+    display: list-item;
+    vertical-align: top;
 }
- */
 
 
 /*Text background*/
