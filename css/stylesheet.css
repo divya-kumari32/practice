@@ -71,21 +71,27 @@ p {
 
 }
 
-/*Slides backgrounds*/
-/*Home*/
+/* Slides backgrounds*/ 
 
 /* .slide0 {
     background:
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
-        url(../img/Slide0.jpg) no-repeat center;
+        url(../img/img_parallax.jpg) no-repeat center;
     background-size: cover;
 
+}
+
+.slide1 {
+    background:
+        linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
+        url(../img/img_parallax6.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .slide2 {
     background:
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
-        url(../img/Slide2.jpg) no-repeat center;
+        url(../img/img_parallax2.jpg) no-repeat center;
     background-size: cover;
 
 }
@@ -93,7 +99,7 @@ p {
 .slide3 {
     background:
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
-        url(../img/Slide3.jpg) no-repeat center;
+        url(../img/img_parallax3.jpg) no-repeat center;
     background-size: cover;
 
 }
@@ -101,7 +107,7 @@ p {
 .slide4 {
     background:
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
-        url(../img/Slide4.jpg) no-repeat center;
+        url(../img/img_parallax4.jpg) no-repeat center;
     background-size: cover;
 
 }
@@ -109,7 +115,7 @@ p {
 .slide7 {
     background:
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
-        url(../img/Slide7.jpg) no-repeat center;
+        url(../img/img_parallax7.jpg) no-repeat center;
     background-size: cover;
 
 }
@@ -117,7 +123,7 @@ p {
 .slide8 {
     background:
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
-        url(../img/Slide8.jpg) no-repeat center;
+        url(../img/img_parallax8.jpg) no-repeat center;
     background-size: cover;
 
 } */
@@ -129,13 +135,14 @@ p {
 }
 
 .image-one {
-    background-image: url(../img/img_parallax2.jpg);
+    background: linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
+    url(../img/img_parallax6.jpg) no-repeat center;
     background-size: cover;
 }
 
 .image-two {
     background: linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
-    url(../img/img_parallax3.jpg) no-repeat center;
+    url(../img/img_parallax2.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -151,22 +158,11 @@ p {
     background-size: cover;
 }
 
-.image-five {
-    background: linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
-    url(../img/img_parallax5.jpg) no-repeat center;
-    background-size: cover;
-}
-
-.image-six {
-    background: linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
-    url(../img/img_parallax6.jpg) no-repeat center;
-    background-size: cover;
-}
-
 .image-seven {
     background: linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
     url(../img/img_parallax7.jpg) no-repeat center;
     background-size: cover;
+    background-image: cross-fade(url(../img/img_parallax7.jpg), url(../img/img_parallax8.jpg));
 }
 
 .image-eight {
@@ -243,8 +239,33 @@ p {
 
 }
 
+/* FADE EFFECT */
 
+/* .fullpage-wrapper {
+	width: 100%!important;
+    transform: none!important;
+    overflow: hidden;
+    padding-top: 0%;
+}
 
+.fp-section {
+	width: 100%!important;
+	position: absolute;
+	left: 0;
+	top: 0;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 0;
+    transition: all .7s ease-in-out;
+    overflow: hidden;
+}
+
+.fp-section.active {
+	visibility: visible;
+	opacity: 1;
+	z-index: 1;
+}
+ */
 
 
 /*Text background*/
@@ -263,12 +284,14 @@ p {
     box-shadow: 15px 7px 0 #272727, -15px -5px 0 #272727, 15px -5px 0 #272727, -15px 7px 0 #272727;
     opacity: 0.5;
     color: transparent;
+    text-align: justify;
 }
 
 
 .text-with-bk {
     position: relative;
     margin: 30px 50px;
+    text-align: justify;
 }
 
 
@@ -280,12 +303,14 @@ p {
     box-shadow: none;
     position: absolute;
     opacity: 1;
+    text-align: justify;
 }
 
 .text-with-bk .text-duplicate span {
     color: white;
     display: inline;
     background-color: transparent;
+    text-align: justify;
     box-shadow: inset 15px 7px 0 transparent, inset -15px -5px 0 transparent, inset 15px -5px 0 transparent, inset -15px 7px 0 transparent;
 }
 

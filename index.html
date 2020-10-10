@@ -30,10 +30,10 @@
 
     <div id="fullpage">
         <!--==========slide 0 Home==========-->
-        <div data-image="zero" data-anchor="slide0" class="container-fluid section slide0">
+        <div data-image="zero" data-anchor="slide0" class="container-fluid panel section slide0">
             <div class="row">
 
-                <div class="col-lg-6 offset-lg-1">
+                <div class="col-lg-6 offset-lg-2">
                     <div class="text-with-bk">
                         <h1 class="text-original"><span>Humanitarian Access</span></h1>
                         <h1 class="text-duplicate"><span>Humanitarian Access</span></h1>
@@ -63,7 +63,7 @@
 
         </div>
         <!--==========slide 1 *no bk* ==========-->
-        <div data-image="one" data-anchor="slide1" class="container-fluid section">
+        <div data-image="one" data-anchor="slide1" class="container-fluid panel section slide1">
             <div class="row justify-content-md-center">
                 <div class="col-lg-4">
                     <h2 class="ochablue">What are access constraints?</h2>
@@ -74,7 +74,7 @@
         </div>
         <!--==========slide 2==========-->
 
-        <div data-image="two" data-anchor="slide2" class="container-fluid section slide2">
+        <div data-image="two" data-anchor="slide2" class="container-fluid panel section slide2">
 
             <div class="row">
                 <div class="col-lg-5 offset-lg-2">
@@ -95,7 +95,7 @@
 
         <!--==========slide 3==========-->
 
-        <div data-image="three" data-anchor="slide3" class="container-fluid section slide3">
+        <div data-image="three" data-anchor="slide3" class="container-fluid panel section slide3">
 
             <div class="row">
                 <div class="col-lg-5">
@@ -110,14 +110,14 @@
                 </div>
             </div>
             <div class="caption">
-                <p class="text-white text-right"><span class="font-weight-bold">USA, 2017</span><br><br>New York, General Assembly.<br>Credit: OCHA/Matteo Minasi.</p>
+                <p class="text-white text-right"><span class="font-weight-bold">New York, 2017</span><br><br>UN Emergency Relief Lowcock during a briefing to the Security Council on the humanitarian situation in Syria.<br>UN Photo/Manuel Elias</p>
             </div>
 
         </div>
 
 
         <!--==========slide 4==========-->
-        <div data-image="four" data-anchor="slide4" class="container-fluid section slide4">
+        <div data-image="four" data-anchor="slide4" class="container-fluid panel section slide4">
             <div class="row">
 
                 <div class="col-lg-5 ">
@@ -157,7 +157,7 @@
 
         <!--==========slide 5 *video bk* ==========-->
 
-        <div data-image="five" data-anchor="slide5" class="container-fluid section slide5 video-background-holder">
+        <div data-image="five" data-anchor="slide5" class="container-fluid panel section slide5 video-background-holder">
             <video data-keepplaying playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
                 <source src="img/liege-timelapse.mp4" type="video/mp4">
             </video>
@@ -172,6 +172,13 @@
                             </span></p>
                     </div>
 
+                    <!-- <div class="text-with-bk">
+                        <p class="text-original"><span>In 2020, the humanitarian community has been working closely with governments for operations to continue and for humanitarian workers to be considered as essential staff. Other countries have issued “laissez-passer” rules for humanitarian staff, allowing them to cross borders or including them in the list of essential workers. In some instances, implementation of these exemptions remains uneven: some humanitarian flights have been grounded for weeks, and not all humanitarian actors have been allowed to resume movements or activities. The dialogue with concerned governments to address these challenges continues. 
+                            </span></p>
+                        <p class="text-duplicate"><span>In 2020, the humanitarian community has been working closely with governments for operations to continue and for humanitarian workers to be considered as essential staff. Other countries have issued “laissez-passer” rules for humanitarian staff, allowing them to cross borders or including them in the list of essential workers. In some instances, implementation of these exemptions remains uneven: some humanitarian flights have been grounded for weeks, and not all humanitarian actors have been allowed to resume movements or activities. The dialogue with concerned governments to address these challenges continues. 
+                            </span></p>
+                    </div> -->
+
                 </div>
             </div>
 
@@ -184,11 +191,10 @@
 
         <!--==========slide 6 *no bk* ==========-->
 
-        <div data-image="six" data-anchor="slide6" class="container-fluid section">
+        <div data-image="five" data-anchor="slide6" class="container-fluid panel section">
             <div class="row justify-content-md-center">
                 <div class="col-lg-4">
                     <p>In 2020, the humanitarian community has been working closely with governments for operations to continue and for humanitarian workers to be considered as essential staff. Other countries have issued “laissez-passer” rules for humanitarian staff, allowing them to cross borders or including them in the list of essential workers. In some instances, implementation of these exemptions remains uneven: some humanitarian flights have been grounded for weeks, and not all humanitarian actors have been allowed to resume movements or activities. The dialogue with concerned governments to address these challenges continues. </p>
-
                 </div>
             </div>
         </div>
@@ -197,7 +203,7 @@
 
         <!--==========slide 7==========-->
 
-        <div data-image="seven" data-anchor="slide7" class="container-fluid section slide7">
+        <div data-image="seven" data-anchor="slide7" class="container-fluid panel section slide7">
 
             <div class="row">
                 <div class="col-lg-5 offset-lg-2">
@@ -219,7 +225,7 @@
 
         <!--==========slide 8==========-->
 
-        <div data-image="eight" data-anchor="slide8" class="container-fluid section slide8">
+        <div data-image="eight" data-anchor="slide8" class="container-fluid panel section slide8">
 
             <div class="row">
                 <div class="col-lg-6 offset-lg-1">
@@ -240,7 +246,7 @@
 
         <!--==========slide 8 *map*==========-->
 
-        <div data-image="eight" data-anchor="slide9" class="container-fluid section">
+        <div data-image="eight" data-anchor="slide9" class="container-fluid panel section">
             <div class=" d-flex justify-content-center">
                 <div>
                     <p>*********MAP********</p>
@@ -306,7 +312,6 @@
         
         $panel.each(function () {
             var $this = $(this);
-            
             // if position is within range of this panel.
             // So position of (position of top of div <= scroll position) && (position of bottom of div > scroll position).
             // Remember we set the scroll to 33% earlier in scroll var.
