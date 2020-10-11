@@ -226,10 +226,45 @@ div {
 /* Slide Background */
 
 .head1 {
-    padding-top: 3%;
+    padding-top: 2%;
 }
 
 .para1 {
-    padding-top: 3%;
+    padding-top: 2%;
 }
 
+.head2 {
+    padding-top: 5%;
+}
+
+.para3 {
+    padding-top: 12%;
+}
+
+.para4 {
+    padding-top: 12%;
+}
+
+.head3 {
+    padding-top: 4%;
+}
+
+.para5 {
+    padding-top: 4%;
+}
+
+.para6 {
+    padding-top: 4%;
+}
+
+.para7 {
+    padding-top: 4%;
+}
+
+.para8 {
+    padding-top: 15%;
+}
+
+.para9 {
+    padding-top: 15%;
+}
