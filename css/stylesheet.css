@@ -116,9 +116,10 @@ body {
 /* panel styles */
 .panel {
     /* min height incase content is higher than window height */
+    width: 100%;
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    justify-content: space-around;
     align-items: center;
     font-family: sans-serif;
     /* outline: 10px solid hotpink; */
@@ -149,6 +150,10 @@ body {
 .image-four {
     background-image: url(../img/img_parallax4.jpg);
     background-size: cover;
+}
+
+.image-five {
+    background-image: url(../img/test.gif)
 }
 
 .image-seven {
@@ -220,3 +225,6 @@ div {
 
 /* Slide Background */
 
+.head1 {
+    padding-top: 3%;
+}
