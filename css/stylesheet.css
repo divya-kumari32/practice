@@ -96,13 +96,15 @@ p {
 }
 
 .caption {
-    position: absolute;
+    position: fixed;
     right: 5%;
     bottom: 5%;
     max-width: 350px;
 }
 
 body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
     color: #000;
     background-color: #f4f4f4;
     transition: background-image 1s ease;
@@ -112,6 +114,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+body::-webkit-scrollbar {
+    display: none;
+  }
 
 /* panel styles */
 .panel {
