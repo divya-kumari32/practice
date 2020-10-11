@@ -44,6 +44,7 @@ p {
 
     }
 }
+
 .text-with-bk {
     color: #ffffff;
     text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 2px, rgba(0, 0, 0, 0.3) 0px 0px 20px;
@@ -117,7 +118,7 @@ body {
     /* min height incase content is higher than window height */
     min-height: 100vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     font-family: sans-serif;
     /* outline: 10px solid hotpink; */
@@ -126,35 +127,43 @@ body {
 
 /* images */
 .image-zero {
-    background-image: url(../img/img_parallax.jpg)
+    background-image: url(../img/img_parallax.jpg);
+    background-size: cover;
 }
 
 .image-one {
-    background-image: url(../img/img_parallax6.jpg)
+    background-image: url(../img/img_parallax6.jpg);
+    background-size: cover;
 }
 
 .image-two {
-    background-image: url(../img/img_parallax2.jpg)
+    background-image: url(../img/img_parallax2.jpg);
+    background-size: cover;
 }
 
 .image-three {
-    background-image: url(../img/img_parallax3.jpg)
+    background-image: url(../img/img_parallax3.jpg);
+    background-size: cover;
 }
 
 .image-four {
-    background-image: url(../img/img_parallax4.jpg)
+    background-image: url(../img/img_parallax4.jpg);
+    background-size: cover;
 }
 
 .image-seven {
-    background-image: url(../img/img_parallax7.jpg)
+    background-image: url(../img/img_parallax7.jpg);
+    background-size: cover;
 }
 
 .image-eight {
-    background-image: url(../img/img_parallax8.jpg)
+    background-image: url(../img/img_parallax8.jpg);
+    background-size: cover;
 }
 
 .image-nine {
-    background-image: url(../img/img_parallax8.jpg)
+    background-image: url(../img/img_parallax8.jpg);
+    background-size: cover;
 }
 .video-background-holder video {
     position: absolute;
@@ -208,3 +217,6 @@ body {
 div {
     position: relative;
 }
+
+/* Slide Background */
+

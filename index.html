@@ -26,35 +26,35 @@
 
 <body>
     <!--==========slide 0 Home==========-->
-    <div class="panel" data-image="zero">
+    <div class="panel section slide0" data-image="zero">
         <div class="row">
-
-            <div class="col-md-12 offset-lg-1">
+            <div class="col-md-12 offset-lg-4 head1 justify-content-md-center">
                 <div class="text-with-bk">
                     <h1 class="text-original"><span>Humanitarian Access</span></h1>
                     <h1 class="text-duplicate"><span>Humanitarian Access</span></h1>
                 </div>
-
+            </div>
+        <br>
+        <br>
+        <div class="col-md-6 offset-lg-4 para1">
+            <div class="text-with-bk">
+                <p class="text-original"><span>Reaching vulnerable people who need life-saving assistance following an earthquake, a deadly outbreak, or in the middle of a war zone, is hugely challenging.</span></p>
+                <p class="text-duplicate"><span>Reaching vulnerable people who need life-saving assistance following an earthquake, a deadly outbreak, or in the middle of a war zone, is hugely challenging.</span></p>
+            </div>
+            <div class="text-with-bk">
+                <p class="text-original"><span>It is also at the heart of the humanitarian endeavour.
+                        Humanitarian organizations negotiate and advocate with all parties to conflict for safe, timely and unhindered access across the world.</span></p>
+                <p class="text-duplicate"><span>It is also at the heart of the humanitarian endeavour.
+                        Humanitarian organizations negotiate and advocate with all parties to conflict for safe, timely and unhindered access across the world.</span></p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 offset-lg-1">
-                <div class="text-with-bk">
-                    <p class="text-original"><span>Reaching vulnerable people who need life-saving assistance following an earthquake, a deadly outbreak, or in the middle of a war zone, is hugely challenging.</span></p>
-                    <p class="text-duplicate"><span>Reaching vulnerable people who need life-saving assistance following an earthquake, a deadly outbreak, or in the middle of a war zone, is hugely challenging.</span></p>
-                </div>
-                <div class="text-with-bk">
-                    <p class="text-original"><span>It is also at the heart of the humanitarian endeavour.
-                            Humanitarian organizations negotiate and advocate with all parties to conflict for safe, timely and unhindered access across the world.</span></p>
-                    <p class="text-duplicate"><span>It is also at the heart of the humanitarian endeavour.
-                            Humanitarian organizations negotiate and advocate with all parties to conflict for safe, timely and unhindered access across the world.</span></p>
-                </div>
-            </div>
         </div>
+        <!-- <div class="row">
+            
+        </div> -->
         <div class="caption">
             <p class="text-white text-right"><span class="font-weight-bold">SOUTH SUDAN, 2014</span><br><br>The rains have already turned large areas of land into wetlands and made it almost impossible for aircraft to land.<br>Credit: OCHA/Jacob Zocherman.</p>
         </div>
-
     </div>
     <!--==========slide 1 *no bk* ==========-->
     <div class="panel" data-image="one">
@@ -148,7 +148,7 @@
     <!--==========slide 5 *video bk* ==========-->
     <div class="panel video-background-holder" data-image="five">
         <video data-keepplaying playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-            <source src="img/liege-timelapse.mp4" type="video/mp4">
+            <source src="img/airplane2.gif" type="video/gif">
         </video>
         <div class="row">
             <div class="col-md-6">
@@ -176,13 +176,13 @@
     </div>
 
     <!--==========slide 6 *no bk* ==========-->
-    <div class="panel" data-image="five">
+    <!-- <div class="panel" data-image="five">
         <div class="row">
             <div class="col-md-6 offset-lg-1">
                 <p>In 2020, the humanitarian community has been working closely with governments for operations to continue and for humanitarian workers to be considered as essential staff. Other countries have issued “laissez-passer” rules for humanitarian staff, allowing them to cross borders or including them in the list of essential workers. In some instances, implementation of these exemptions remains uneven: some humanitarian flights have been grounded for weeks, and not all humanitarian actors have been allowed to resume movements or activities. The dialogue with concerned governments to address these challenges continues. </p>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!--==========slide 7==========-->
     <div class="panel" data-image="seven">
@@ -244,14 +244,14 @@
 
     <script>
         $(window).scroll(function() {
-        
+
         // selectors
         var $window = $(window),
             $body = $('body'),
             $panel = $('.panel');
         
         // Change 33% earlier than scroll position so colour is there when you arrive.
-        var scroll = $window.scrollTop() + ($window.height() / 3);
+        var scroll = $window.scrollTop() + ($window.height() / 9);
         
         $panel.each(function () {
             var $this = $(this);
