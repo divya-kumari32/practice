@@ -103,8 +103,6 @@ p {
 }
 
 body {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
     color: #000;
     background-color: #f4f4f4;
     transition: background-image 1s ease;
@@ -115,10 +113,6 @@ body {
     background-size: cover;
 }
 
-body::-webkit-scrollbar {
-    display: none;
-  }
-  
 /* panel styles */
 .panel {
     /* min height incase content is higher than window height */
@@ -234,3 +228,8 @@ div {
 .head1 {
     padding-top: 3%;
 }
+
+.para1 {
+    padding-top: 3%;
+}
+
