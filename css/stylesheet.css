@@ -56,9 +56,10 @@ p {
     display: inline;
     background-color: #272727;
     box-shadow: 15px 7px 0 #272727, -15px -5px 0 #272727, 15px -5px 0 #272727, -15px 7px 0 #272727;
-    opacity: 0.5;
+    opacity: 0.3;
     color: transparent;
     text-align: justify;
+    font-weight: bold;
 }
 
 
@@ -66,6 +67,7 @@ p {
     position: relative;
     margin: 30px 50px;
     text-align: justify;
+    font-weight: bold;
 }
 
 
@@ -78,6 +80,7 @@ p {
     position: absolute;
     opacity: 1;
     text-align: justify;
+    font-weight: bold;
 }
 
 .text-with-bk .text-duplicate span {
@@ -86,6 +89,7 @@ p {
     background-color: transparent;
     box-shadow: inset 15px 7px 0 transparent, inset -15px -5px 0 transparent, inset 15px -5px 0 transparent, inset -15px 7px 0 transparent;
     text-align: justify;
+    font-weight: bold;
 }
 
 /*Colors*/
@@ -243,46 +247,51 @@ div {
     font-weight: bolder;
 }
 
-/* .para1 {
-    padding-top: 2%;
+.para1 {
+    font-size: 1.2rem;
 }
 
 .head2 {
-    padding-top: 5%;
+    font-size: 1.2rem;
+}
+
+.para2 {
+    font-size: 1.2rem;
 }
 
 .para3 {
-    padding-top: 12%;
+    font-size: 1.2rem;
 }
 
 .para4 {
-    padding-top: 12%;
+    font-size: 1.2rem;
+
 }
 
 .head3 {
-    padding-top: 4%;
+    font-size: 1.2rem;
 }
 
-/* .para5 {
-    padding-top: 2%;
+.para5 {
+    font-size: 1.2rem;
 } 
 
 .para6 {
-    padding-top: 10%;
+    font-size: 1.2rem;
 }
 
 .para7 {
-    padding-top: 4%;
+    font-size: 1.2rem;
 }
 
 .para8 {
-    padding-top: 15%;
+    font-size: 1.2rem;
 }
 
 .para9 {
-    padding-top: 15%;
+    font-size: 1.2rem;
 }
 
 .para10 {
-    padding-top: 20%;
-} */
+    font-size: 1.2rem;
+}
