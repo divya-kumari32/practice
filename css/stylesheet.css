@@ -110,9 +110,9 @@ body {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     color: #000;
-    background-color: #f4f4f4;
+    background-color: #aaa;
     transition: background-image 1s ease;
-    
+    overflow-x: hidden;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
