@@ -237,6 +237,9 @@ div {
 
 .head1 {
     padding-top: 20%;
+    padding-left: 3%;
+    font-size: 1.2rem;
+    font-weight: bolder;
 }
 
 /* .para1 {
