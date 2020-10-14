@@ -169,12 +169,10 @@ body::-webkit-scrollbar {
     min-width: 100%;
 }
 
-.image-five {
+/* .image-five {
     background-image: url(../img/test.gif);
-    min-height: 100%;
-    min-width: 100%;
-    object-fit: cover;
-}
+    background-size: cover;
+} */
 
 .image-seven {
     background-image: url(../img/img_parallax7.jpg);
@@ -299,4 +297,18 @@ div {
 
 .para10 {
     font-size: 1.1rem;
+}
+
+@keyframes fadeanim {
+    0%   {opacity: 0;}
+    25%  {opacity: 0.25;}
+    50%  {opacity: 0.5;}
+    100% {opacity: 0.75;}
+  }
+
+.video-bg-animate {
+    animation-name: fadeanim;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    /* animation-iteration-count: infinite; */
 }
