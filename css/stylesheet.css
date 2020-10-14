@@ -56,7 +56,7 @@ p {
     display: inline;
     background-color: #272727;
     box-shadow: 15px 7px 0 #272727, -15px -5px 0 #272727, 15px -5px 0 #272727, -15px 7px 0 #272727;
-    opacity: 0.2;
+    opacity: 0.3;
     color: transparent;
     text-align: justify;
     font-weight: bold;
@@ -253,50 +253,50 @@ div {
 }
 
 .para1 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .head2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .para2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .para3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .para4 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 
 }
 
 .head3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .para5 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 } 
 
 .para6 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .para7 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .para8 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .para9 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .para10 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
