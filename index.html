@@ -244,11 +244,11 @@
         </div>
     </div>
 
-    <div class='video-bg' style="z-index: -5;">
+    <!-- <div class='video-bg' style="z-index: -5;">
         <video data-keepplaying playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
             <source src="img/airplane1.mp4" type="video/mp4">
         </video>
-    </div>
+    </div> -->
 
 </body>
 
@@ -300,18 +300,18 @@
 
                 $(this).next().find(".row").css("opacity", ($(window).scrollTop()-$this.position().top) / 300);
 
-                if($this.data('image')=='five'){
-                    $(".video-bg").css({'position':'absolute','top':0,'left':0,'z-index':-5,'display':'block','opacity':0})
-                    // $(".video-bg").animate({opacity:1},1000)
-                    $('.video-bg').addClass('video-bg-animate');
-                }
-                else{
-                    // $(".video-bg").animate({opacity:0},1000); //,function(){
-                        $('.video-bg').removeClass('video-bg-animate');
-                        // $(".video-bg").animate({opacity:0},1000)
-                        $(".video-bg").css('display','none');
-                    // })
-                }
+                // if($this.data('image')=='five'){
+                //     $(".video-bg").css({'position':'fixed','top':0,'left':0,'z-index':-5,'display':'block','opacity':0})
+                //     // $(".video-bg").animate({opacity:1},1000)
+                //     $('.video-bg').addClass('video-bg-animate');
+                // }
+                // else{
+                //     // $(".video-bg").animate({opacity:0},1000); //,function(){
+                //         $('.video-bg').removeClass('video-bg-animate');
+                //         // $(".video-bg").animate({opacity:0},1000)
+                //         $(".video-bg").css('display','none');
+                //     // })
+                // }
 
                 }
             });    
