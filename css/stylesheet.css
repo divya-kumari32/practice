@@ -115,6 +115,7 @@ body {
     scrollbar-width: none;  /* Firefox */
     color: #000;
     background-color: #aaa;
+    min-height: 100%;
     transition: background-image 1s ease;
     overflow-x: hidden;
     background-attachment: fixed;
@@ -169,10 +170,9 @@ body::-webkit-scrollbar {
     min-width: 100%;
 }
 
-/* .image-five {
-    background-image: url(../img/test.gif);
+.image-five {
     background-size: cover;
-} */
+}
 
 .image-seven {
     background-image: url(../img/img_parallax7.jpg);
