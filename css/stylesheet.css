@@ -171,6 +171,7 @@ body::-webkit-scrollbar {
 }
 
 .image-five {
+    background-image: url(../img/test.gif);
     background-size: cover;
 }
 
