@@ -159,7 +159,7 @@ body::-webkit-scrollbar {
 .image-two {
     background-image:
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), 
-        url(../img/ym_slide2.png);
+        url(../img/ym_slide2.jpg);
     background-size: cover;
 }
 
@@ -187,7 +187,7 @@ body::-webkit-scrollbar {
 .image-six {
     background-image: 
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
-        url(../img/djibouti.gif);
+        url(../img/uncar.gif);
     background-size: cover;
 }
 
@@ -258,8 +258,8 @@ div {
 /* Slide Background */
 
 .head1 {
-    padding-top: 16%;
-    padding-left: 10%;
+    padding-top: 5%;
+    /* padding-left: 5%; */
     font-size: 1.5rem;
     font-weight: bolder;
 }
