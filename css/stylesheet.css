@@ -56,9 +56,9 @@ p {
     display: inline;
     background-color: #272727;
     box-shadow: 15px 7px 0 #272727, -15px -5px 0 #272727, 15px -5px 0 #272727, -15px 7px 0 #272727;
-    opacity: 0.4;
+    opacity: 0.2;
     color: transparent;
-    text-align: justify;
+    text-align: left;
     font-weight: bold;
 }
 
@@ -66,7 +66,7 @@ p {
 .text-with-bk {
     position: relative;
     margin: 30px 50px;
-    text-align: justify;
+    text-align: left;
     font-weight: bold;
 }
 
@@ -78,8 +78,8 @@ p {
     z-index: 2;
     box-shadow: none;
     position: absolute;
-    opacity: 1;
-    text-align: justify;
+    opacity: 0.9;
+    text-align: left;
     font-weight: bold;
 }
 
@@ -88,7 +88,7 @@ p {
     display: inline;
     background-color: transparent;
     box-shadow: inset 15px 7px 0 transparent, inset -15px -5px 0 transparent, inset 15px -5px 0 transparent, inset -15px 7px 0 transparent;
-    text-align: justify;
+    text-align: left;
     font-weight: bold;
 }
 
@@ -144,49 +144,65 @@ body::-webkit-scrollbar {
 
 /* images */
 .image-zero {
-    background-image: url(../img/img_parallax.jpg);
+    background-image:
+    linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), 
+    url(../img/img_parallax.jpg);
     background-size: cover;
 }
 
 .image-one {
-    background-image: url(../img/img_parallax6.jpg);
+    background-image:
+        linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), 
+        url(../img/img_parallax6.jpg);
     background-size: cover;
 }
 
 .image-two {
-    background-image: url(../img/img_parallax2.jpg);
+    background-image: 
+        linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
+        url(../img/img_parallax2.jpg);
     background-size: cover;
 }
 
 .image-three {
-    background-image: url(../img/img_parallax3.jpg);
+    background-image:
+        linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), 
+        url(../img/img_parallax3.jpg);
     background-size: cover;
 }
 
 .image-four {
-    background-image: url(../img/img_parallax4.jpg);
+    background-image: 
+        linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
+        url(../img/img_parallax4.jpg);
     background-size: cover;
-    min-height: 100%;
-    min-width: 100%;
 }
 
 .image-five {
-    background-image: url(../img/test.gif);
+    background-image: 
+        linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
+        url(../img/test.gif);
     background-size: cover;
 }
 
 .image-seven {
-    background-image: url(../img/img_parallax7.jpg);
+    background-image:
+        linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), 
+        url(../img/img_parallax7.jpg);
     background-size: cover;
 }
 
 .image-eight {
-    background-image: url(../img/img_parallax8.jpg);
+    background-image: 
+        linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
+        url(../img/img_parallax8.jpg);
     background-size: cover;
 }
 
 .image-nine {
-    background-image: url(../img/img_parallax8.jpg);
+    background-image: 
+        linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
+        url(../img/img_parallax8.jpg);
     background-size: cover;
 }
 .video-background-holder video {
@@ -245,59 +261,71 @@ div {
 /* Slide Background */
 
 .head1 {
-    padding-top: 20%;
-    padding-left: 3%;
-    font-size: 1.2rem;
+    padding-top: 19%;
+    padding-left: 6%;
+    font-size: 1.5rem;
     font-weight: bolder;
 }
 
 .para1 {
-    font-size: 1.1rem;
+    padding-left: 8%;
+    font-size: 1.2rem;
 }
 
 .head2 {
-    font-size: 1.1rem;
+    padding-left: 17%;
+    font-size: 1.2rem;
 }
 
 .para2 {
-    font-size: 1.1rem;
+    padding-left: 8%;
+    font-size: 1.2rem;
 }
 
 .para3 {
-    font-size: 1.1rem;
+    padding-left: 8%;
+    font-size: 1.2rem;
 }
 
 .para4 {
-    font-size: 1.1rem;
+    padding-left: 8%;
+    font-size: 1.2rem;
 
 }
 
 .head3 {
-    font-size: 1.1rem;
+    padding-left: 4%;
+    font-size: 1.2rem;
 }
 
 .para5 {
-    font-size: 1.1rem;
+    padding-left: 8%;
+    font-size: 1.2rem;
 } 
 
 .para6 {
-    font-size: 1.1rem;
+    padding-left: 8%;
+    font-size: 1.2rem;
 }
 
 .para7 {
-    font-size: 1.1rem;
+    padding-left: 8%;
+    font-size: 1.2rem;
 }
 
 .para8 {
-    font-size: 1.1rem;
+    padding-left: 8%;
+    font-size: 1.2rem;
 }
 
 .para9 {
-    font-size: 1.1rem;
+    padding-left: 8%;
+    font-size: 1.2rem;
 }
 
 .para10 {
-    font-size: 1.1rem;
+    /* padding-left: 10%; */
+    font-size: 1.2rem;
 }
 
 @keyframes fadeanim {
