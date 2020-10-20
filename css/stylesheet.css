@@ -262,7 +262,8 @@ div {
 
 .head1 {
     padding-top: 19%;
-    padding-left: 6%;
+    /* padding-left: 6%; */
+    text-align: center;
     font-size: 1.5rem;
     font-weight: bolder;
 }
@@ -273,7 +274,7 @@ div {
 }
 
 .head2 {
-    padding-left: 17%;
+    padding-left: 8%;
     font-size: 1.2rem;
 }
 

@@ -114,6 +114,8 @@ body {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     color: #000;
+    width: 100%;
+    height: 100%;
     background-color: #aaa;
     transition: background-image 1s ease;
     overflow-x: hidden;
