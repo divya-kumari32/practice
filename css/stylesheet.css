@@ -268,7 +268,7 @@ div {
 /* Slide Background */
 
 .head0 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     text-align: center;
     padding-top: 10%;
     
@@ -279,70 +279,70 @@ div {
     padding-left: 0px;
     /* padding-left: 6%; */
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: bolder;
 }
 
 .para1 {
     padding-left: 8%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .head2 {
     padding-left: 8%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para2 {
     padding-left: 8%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para3 {
     padding-top: 3%;
     padding-left: 8%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para4 {
     padding-left: 8%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 
 }
 
 .head3 {
     padding-left: 8%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para5 {
     padding-left: 8%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 } 
 
 .para6 {
     padding-left: 8%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para7 {
     padding-left: 8%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para8 {
     padding-left: 8%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para9 {
     padding-left: 8%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para10 {
     /* padding-left: 10%; */
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 @keyframes fadeanim {

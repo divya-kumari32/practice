@@ -196,7 +196,7 @@ body::-webkit-scrollbar {
 .image-six {
     background-image: 
         /* linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), */
-        url(../img/djibouti2.gif);
+        url(../img/uncar.gif);
     background-size: cover;
 }
 
@@ -275,57 +275,53 @@ div {
     font-weight: bolder;
 }
 
-.para0 {
-    font-size: 1rem;
-}
-
 .para1 {
     padding-left: 12%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .head2 {
     padding-left: 8%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para2 {
     padding-left: 12%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para3 {
     /* padding-left: 8%; */
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para4 {
     padding-left: 12%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para5 {
     padding-left: 12%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 } 
 
 .para6 {
     padding-left: 12%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para7 {
     padding-left: 8%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para8 {
     padding-left: 8%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para9 {
     padding-left: 7%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
