@@ -116,7 +116,7 @@ body {
     color: #000;
     width: 100%;
     height: 100%;
-    background-color: #aaa;
+    background: #403a3a;
     transition: background-image 1s ease;
     overflow-x: hidden;
     background-attachment: fixed;
@@ -144,6 +144,13 @@ body::-webkit-scrollbar {
 }
 
 /* images */
+
+.image-zero1 {
+    background:linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
+    #403a3a;
+    background-size: cover; 
+}
+
 .image-zero {
     background-image:
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
@@ -188,8 +195,8 @@ body::-webkit-scrollbar {
 
 .image-six {
     background-image: 
-        linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
-        url(../img/uncar.gif);
+        /* linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), */
+        url(../img/djibouti2.gif);
     background-size: cover;
 }
 
@@ -201,8 +208,10 @@ body::-webkit-scrollbar {
 }
 
 .image-eight {
+    background:linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
+    #403a3a;
     background-size: cover;
-}
+    }
 
 .video-background-holder video {
     position: absolute;
@@ -266,13 +275,17 @@ div {
     font-weight: bolder;
 }
 
+.para0 {
+    font-size: 1rem;
+}
+
 .para1 {
     padding-left: 12%;
     font-size: 1.2rem;
 }
 
 .head2 {
-    padding-left: 12%;
+    padding-left: 8%;
     font-size: 1.2rem;
 }
 
@@ -282,7 +295,7 @@ div {
 }
 
 .para3 {
-    padding-left: 12%;
+    /* padding-left: 8%; */
     font-size: 1.2rem;
 }
 
@@ -302,12 +315,12 @@ div {
 }
 
 .para7 {
-    padding-left: 12%;
+    padding-left: 8%;
     font-size: 1.2rem;
 }
 
 .para8 {
-    padding-left: 12%;
+    padding-left: 8%;
     font-size: 1.2rem;
 }
 

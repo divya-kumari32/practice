@@ -65,7 +65,7 @@ p {
 
 .text-with-bk {
     position: relative;
-    margin: 30px 50px;
+    margin: 0px 10px;
     text-align: left;
     font-weight: bold;
 }
@@ -114,7 +114,7 @@ body {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     color: #000;
-    background-color: #aaa;
+    background:#403a3a;
     min-height: 100%;
     transition: background-image 1s ease;
     overflow-x: hidden;
@@ -143,6 +143,13 @@ body::-webkit-scrollbar {
 }
 
 /* images */
+
+.image-zero1 {
+    background:linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
+    #403a3a;
+    background-size: cover;     
+}
+
 .image-zero {
     background-image:
     linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), 
@@ -260,11 +267,19 @@ div {
 
 /* Slide Background */
 
+.head0 {
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10%;
+    
+}
+
 .head1 {
-    padding-top: 19%;
+    padding-top: 15%;
+    padding-left: 0px;
     /* padding-left: 6%; */
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bolder;
 }
 
@@ -284,6 +299,7 @@ div {
 }
 
 .para3 {
+    padding-top: 3%;
     padding-left: 8%;
     font-size: 1.2rem;
 }
