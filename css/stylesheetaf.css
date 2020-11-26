@@ -153,15 +153,15 @@ body::-webkit-scrollbar {
 
 .image-zero {
     background-image:
-        linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
-        url(../img/af_slide0.png);
-    background-size: cover;
+        linear-gradient(rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)),
+        url(../img/af_slide0.jpg);
+        background-size: cover;
 }
 
 .image-one {
     background-image:
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), 
-        url(../img/aden-wfp.gif);
+        url(../img/af_flight.gif);
     background-size: cover;
 }
 
@@ -181,7 +181,7 @@ body::-webkit-scrollbar {
 
 .image-six {
     background-image: 
-        /* linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), */
+        linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
         url(../img/af_slide6.png);
     background-size: cover;
 }
@@ -256,62 +256,58 @@ div {
     font-weight: bolder;
 }
 
-.para0 {
-    font-size: 1rem;
-}
-
 .para1 {
     padding-left: 12%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .head2 {
     padding-left: 8%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para2 {
     padding-left: 12%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para3 {
     padding-left: 12%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para4 {
     padding-left: 12%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para5 {
     padding-left: 12%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 } 
 
 .para6 {
     padding-left: 12%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para7 {
     padding-left: 12%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para8 {
     padding-left: 12%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para9 {
     padding-left: 12%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .para10 {
     padding-left: 5%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
