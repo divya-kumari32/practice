@@ -128,7 +128,14 @@ body {
 body::-webkit-scrollbar {
     display: none;
   }
-
+.empty {
+    /* min-height: 125px; */
+    height: 40%
+}
+.empty1 {
+    min-height: 250px;
+    height: 40%
+}
 /* panel styles */
 .panel {
     /* min height incase content is higher than window height */
@@ -138,6 +145,8 @@ body::-webkit-scrollbar {
     justify-content: space-around;
     align-items: center;
     font-family: sans-serif;
+    /* padding-top: 10%; */
+    /* padding-bottom: 10%; */
     /* outline: 10px solid hotpink; */
     /* turn above on to see the edge of panels */
 }
