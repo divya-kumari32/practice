@@ -151,6 +151,10 @@ body::-webkit-scrollbar {
     /* turn above on to see the edge of panels */
 }
 
+.panel1 {
+    min-height: 300px;
+}
+
 /* images */
 
 .image-zero1 {
@@ -259,6 +263,7 @@ body::-webkit-scrollbar {
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: 2s;
+    /* animation-delay: 3s; */
 }
 
 @keyframes fadeInOpacity {
@@ -284,7 +289,6 @@ div {
 }
 
 .head1 {
-    padding-top: 15%;
     padding-left: 0px;
     /* padding-left: 6%; */
     text-align: center;
