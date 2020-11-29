@@ -50,11 +50,11 @@
     </div>
 
     <!--==========slide 0 Home==========-->
-    <div class="panel1" data-image="zero">
+    <!-- <div class="panel1" data-image="zero">
         <div class="caption">
             <p class="text-white text-right"><span class="font-weight-bold">SOUTH SUDAN, 2014</span><br><br>The rains have already turned large areas of land into wetlands and made it almost impossible for aircraft to<span style="margin-right: -3%;"> land.</span><br><span style="margin-right: -3%;">Credit: OCHA/Jacob Zocherman.</span></p>
         </div>
-    </div>
+    </div> -->
 
     <div class="panel" data-image="zero">
         <div class="row head1">
@@ -415,10 +415,10 @@
 
                 if($this.data('image') != 'zero1' || $window.height() < 600){
                     console.log($window.height())
-                    $(this).find(".row").css("opacity", 1 - ($(window).scrollTop()-$this.position().top) / 100);
+                    $(this).find(".row").css("opacity", 1 - ($(window).scrollTop()-$this.position().top) / 90);
                 }
                 else 
-                    $(this).find(".row").css("opacity", 1 - ($(window).scrollTop()-$this.position().top) / 100);
+                    $(this).find(".row").css("opacity", 1 - ($(window).scrollTop()-$this.position().top) / 90);
                 $(this).next().find(".row").css("opacity", ($(window).scrollTop()-$this.position().top) / 300);
 
                 }
