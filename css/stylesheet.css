@@ -11,6 +11,16 @@ h2 {
     font-weight: 900;
 }
 
+.fade {
+    transition: 0.6s;
+}
+
+.bg-div {
+    z-index:-1;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+}
 /*Fonts*/
 
 p {
@@ -122,6 +132,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+transition: 1s;
     max-height: 100vh;
 }
 
@@ -129,14 +140,7 @@ body::-webkit-scrollbar {
     display: flexbox;
 }
 
-.empty {
-    /* min-height: 125px; */
-    height: 40%
-}
-.empty1 {
-    min-height: 250px;
-    height: 40%
-}
+
 /* panel styles */
 .panel {
     /* min height incase content is higher than window height */
@@ -166,7 +170,8 @@ body::-webkit-scrollbar {
 .image-zero1 {
     background:linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
     #403a3a;
-    background-size: cover;     
+    background-size: cover;
+transition: 1s;   
 }
 
 .image-zero {
@@ -174,6 +179,7 @@ body::-webkit-scrollbar {
     linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), 
     url(../img/img_parallax.jpg);
     background-size: cover;
+transition: 1s;
 }
 
 .image-one {
@@ -181,6 +187,7 @@ body::-webkit-scrollbar {
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), 
         url(../img/img_parallax6.jpg);
     background-size: cover;
+transition: 1s;
 }
 
 .image-two {
@@ -188,6 +195,7 @@ body::-webkit-scrollbar {
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
         url(../img/img_parallax2.jpg);
     background-size: cover;
+transition: 1s;
 }
 
 .image-three {
@@ -195,6 +203,7 @@ body::-webkit-scrollbar {
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), 
         url(../img/img_parallax3.jpg);
     background-size: cover;
+transition: 1s;
 }
 
 .image-four {
@@ -202,6 +211,7 @@ body::-webkit-scrollbar {
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
         url(../img/img_parallax4.jpg);
     background-size: cover;
+transition: 1s;
 }
 
 .image-five {
@@ -209,6 +219,7 @@ body::-webkit-scrollbar {
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
         url(../img/test.gif);
     background-size: cover;
+transition: 1s;
 }
 
 .image-seven {
@@ -216,6 +227,7 @@ body::-webkit-scrollbar {
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), 
         url(../img/img_parallax7.jpg);
     background-size: cover;
+transition: 1s;
 }
 
 .image-eight {
@@ -223,6 +235,7 @@ body::-webkit-scrollbar {
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
         url(../img/img_parallax8.jpg);
     background-size: cover;
+transition: 1s;
 }
 
 .image-nine {
@@ -230,6 +243,7 @@ body::-webkit-scrollbar {
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
         url(../img/img_parallax8.jpg);
     background-size: cover;
+transition: 1s;
 }
 
 .fade-in {
