@@ -28,10 +28,21 @@
 
 <body>
 
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Introduction</a>
+        <a href="afghanistan.html">AFGHANISTAN</a>
+        <a href="#">DRC</a>
+        <a href="#">MOZAMBIQUE</a>
+    </div>
+
+    <span style="padding-left: 1.5%;font-size:30px;cursor:pointer;color: white;position: sticky;top: 0;left: 0;" onclick="openNav()">&#9776;</span>
+
+    <div id="main">
         <!--==========slide 0 Home==========-->
         <div class="panel" data-image="zero">
-            <div class="row head1">
-                <div class="col-md-12 offset-lg-2">
+            <div class="row fade head1">
+                <div class="col-md-6 offset-lg-2">
                     <div class="text-with-bk">
                         <h1 class="text-original"><span>Yemen</span></h1>
                         <h1 class="text-duplicate"><span>Yemen</span></h1>
@@ -49,11 +60,13 @@
 
         </div>
 
+        
+
         <!--=========slide0-1======================-->
 
         <div class="panel" data-image="zero">
-            <div class="row para1">
-                <div class="col-lg-6 offset-lg-2">
+            <div class="row fade para1">
+                <div class="col-lg-6 offset-lg-1">
                     <div class="text-with-bk">
                         <p class="text-original"><span>The humanitarian crisis raging in Yemen is considered the world’s worst. When conflict erupted in 2015, the country was already the poorest country in the Middle East; since then, Yemen’s health infrastructure and economy has been reduced to shambles, and its population dragged on the brink of famine.</span></p>
                         <p class="text-duplicate"><span>The humanitarian crisis raging in Yemen is considered the world’s worst. When conflict erupted in 2015, the country was already the poorest country in the Middle East; since then, Yemen’s health infrastructure and economy has been reduced to shambles, and its population dragged on the brink of famine.</span></p>
@@ -69,8 +82,8 @@
         <!--==========slide 1 *video bk* ==========-->
 
         <div class="panel" data-image="one">
-            <div class="row para2">
-                <div class="col-lg-6 offset-lg-2">
+            <div class="row fade para2">
+                <div class="col-lg-6 offset-lg-1">
                     <div class="text-with-bk">
                         <p class="text-original"><span>Despite recurring funding worries, the humanitarian community has risen to the occasion staging the world’s biggest humanitarian operation. As of December 2019, some form of humanitarian assistance was reaching 15 million people every month in Yemen.
                             </span></p>
@@ -89,14 +102,28 @@
         <!--==========slide 2==========-->
 
         <div class="panel" data-image="zero1">
-            <div class="row para3">
-                <div class="col-lg-9 offset-lg-2">
+            <div class="row fade para3">
+                <div class="col-lg-6 offset-lg-1">
                     <div class="text-with-bk">
                         <p class="text-original"><span> Delivering aid and implementing programmes would be hard enough given the scale of needs. But the ongoing conflict adds a whole other layer of risk and complications to humanitarian action.
                             </span></p>
                         <p class="text-duplicate"><span> Delivering aid and implementing programmes would be hard enough given the scale of needs. But the ongoing conflict adds a whole other layer of risk and complications to humanitarian action.
                             </span></p>
                     </div>
+                </div>
+            </div>
+
+            <!-- <div class="caption">
+                <p class="text-white text-right"><span class="font-weight-bold">Yemen, 2018.</span><br><br>In Al Hudaydah, a man and his sons travel to collect water underneath a bridge that was hit by an airstrike in mid-2016. Parties to the conflict have attacked civilian targets and<span style="margin-right: -3%;"> infrastructure, including schools, </span> health facilities, markets, roads and<span style="margin-right: -3%;"> other sites.</span><br>OCHA/Giles Clarke</p>
+            </div> -->
+
+        </div>
+
+        <!--==========slide 2==========-->
+
+        <div class="panel" data-image="zero1">
+            <div class="row fade para3">
+                <div class="col-lg-6 offset-lg-1">
                     <div class="text-with-bk">
                         <p class="text-original"><span>“Under international humanitarian law” however, explains René Nijenhuis from OCHA, “the obligations of parties to the conflict are very, very clear: it is their obligation to protect humanitarian partners and the movements that we take”. Following a request of the Humanitarian Country Team, a Notification mechanism has been instituted in Yemen in April 2015.
                             </span></p>
@@ -116,8 +143,8 @@
 
         <div class="panel" data-image="three">
 
-            <div class="row para4">
-                <div class="col-lg-6 offset-lg-2">
+            <div class="row fade para4">
+                <div class="col-lg-6 offset-lg-1">
                     <div class="text-with-bk">
                         <p class="text-original"><span>The mechanism is run by OCHA’s Deconfliction Liaison Team (DLT). This unit serves as a conduit between UN humanitarian organisations and NGOs that wish to share their data (GPS coordinates and/or movement information), and the Evacuation and Humanitarian Operations Committee (EHOC) of the Saudi-Led Coalition.
                             </span></p>
@@ -135,8 +162,8 @@
 
         <!--==========slide 4 *no bk* ==========-->
         <div class="panel" data-image="four">
-            <div class="row para5">
-                <div class="col-lg-6 offset-lg-2">
+            <div class="row fade para5">
+                <div class="col-lg-6 offset-lg-1">
                     <div class="text-with-bk">
                         <p class="text-original"><span>The DLT informs the Saudi-Led Coalition of the locations of humanitarian static locations and humanitarian movements in Yemen aiming to facilitate the Coalition in meeting its obligations under International Humanitarian Law to promote the safe delivery of humanitarian assistance in Yemen.
                             </span></p>
@@ -149,8 +176,8 @@
         <!--==========slide 5 *no bk* ==========-->
 
         <div class="panel" data-image="five">
-            <div class="row para6">
-                <div class="col-lg-6 offset-lg-2">
+            <div class="row fade para6">
+                <div class="col-lg-6 offset-lg-1">
                     <div class="text-with-bk">
                         <p class="text-original"><span>The deconfliction may be temporary, for specific land, sea or air movements that humanitarians need to take; or permanent, for venues such as offices, residence, warehouses, hospitals, schools, refugee camps, water distribution sites, food distribution points etc.
                             </span></p>
@@ -164,8 +191,8 @@
         <!--==========slide 6 *video bk* ==========-->
 
         <div class="panel" data-image="six">
-            <div class="row head2">
-                <div class="col-lg-12 offset-lg-2">
+            <div class="row fade head2">
+                <div class="col-lg-10 offset-lg-1">
                     <div class="text-with-bk">
                         <h2 class="text-original"><span>How does the deconfliction system work?</span></h2>
                         <h2 class="text-duplicate"><span>How does the deconfliction system work?</span></h2>
@@ -175,7 +202,7 @@
             </div>
 
             <div class="row para7">
-                <div class="col-lg-7 offset-lg-2">
+                <div class="col-lg-6 offset-lg-1">
                     <div class="text-with-bk">
                         <p class="text-original"><span>For a land movement, a UN agency or NGO that wants to notify the Saudi-Led Coalition will use the dedicated platform and submit a form 48 hours in advance, or 24 in an emergency case, with accurate information on the details of the movement, ranging from the itinerary to the vehicles.
                             </span></p>
@@ -194,8 +221,8 @@
         <!--===========slide6-1================-->
 
         <div class="panel" data-image="six">
-            <div class="row para7">
-                <div class="col-lg-7 offset-lg-2">
+            <div class="row fade para7">
+                <div class="col-lg-6 offset-lg-1">
                     <div class="text-with-bk">
                         <p class="text-original"><span>The DLT receives the information and submits it to the Coalition, promptly relaying back  the acknowledgement of the movement to the agency.
                             </span></p>
@@ -214,8 +241,8 @@
         <!--===========slide6-2================-->
 
         <div class="panel" data-image="six">
-            <div class="row para7">
-                <div class="col-lg-7 offset-lg-2">
+            <div class="row fade para7">
+                <div class="col-lg-6 offset-lg-1">
                     <div class="text-with-bk">
                         <p class="text-original"><span>As of September 2020, the DLT has submitted over 41,719 notifications on behalf of humanitarian partners in Yemen with an acknowledgement rate, on the part of the Coalition, of 95.25%.
                             </span></p>
@@ -234,8 +261,8 @@
         <!--==========slide 7==========-->
 
         <div class="panel" data-image="zero1">
-            <div class="row para8">
-                <div class="col-lg-8 offset-lg-1">
+            <div class="row fade para8">
+                <div class="col-lg-6 offset-lg-1">
                     <div class="text-with-bk">
                         <p class="text-original"><span>The Notification mechanism does not constitute a legally binding agreement between any of the involved parties. As such, it can’t guarantee the safety of personnel, facilities, or sites - but it is still a valuable form of mitigation of risk for humanitarian operators.
                             </span></p>
@@ -259,7 +286,7 @@
 
         <!--==========slide 8 *no bk + full video* ==========-->
         <div class="panel" data-image="eight">
-            <div class="row para9">
+            <div class="row fade para9">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="text-with-bk">
                         <p class="text-original"><span>Watch the video to learn more about the deconfliction mechanism in Yemen.
@@ -278,6 +305,8 @@
             </div>
         </div>
 
+        </div>
+
 </body>
 
     <!--Custom JS-->
@@ -290,46 +319,64 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+    <script>
+        
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "200px";
+        document.getElementById("main").style.marginLeft = "100px";
+        }
+
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+        }
+
+    </script>
 
     <script>
         $(window).scroll(function() {
 
-            // selectors
-            var $window = $(window),
-                $body = $('body'),
-                $panel = $('.panel');
+        // selectors
+        var $window = $(window),
+            $body = $('body'),
+            $panel = $('.panel');
+
+        // Change 15% earlier than scroll position so colour is there when you arrive.
+        // var scroll = $window.scrollTop() + ($window.height() * 0.05);
+        var scroll = $window.scrollTop() + ($window.height() /1.25);
+        // console.log( $window.scrollTop(),$window.height(),scroll);
+        $panel.each(function () {
+            var $this = $(this);
             
-            // Change 15% earlier than scroll position so colour is there when you arrive.
-            var scroll = $window.scrollTop() + ($window.height() / 1.25);
-            
-            $panel.each(function () {
-                var $this = $(this);
-                
-                // if position is within range of this panel.
-                // So position of (position of top of div <= scroll position) && (position of bottom of div > scroll position).
-                // Remember we set the scroll to 33% earlier in scroll var.
-                if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
-                    
-                // Remove all classes on body with color-
+            // if position is within range of this panel.
+            // So position of (position of top of div <= scroll position) && (position of bottom of div > scroll position).
+            // Remember we set the scroll to 33% earlier in scroll var.
+            if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
+            // Remove all classes on body with color-
                 $body.removeClass(function (index, css) {
                     return (css.match (/(^|\s)image-\S+/g) || []).join(' ');
-                });
+            });
 
-                // Add class of currently active div
-                $body.addClass('image-' + $(this).data('image'));
+            // Add class of currently active div
+            $body.addClass('image-' + $(this).data('image'));
 
-                $('.caption').each(function() {
-                    $(this).css('display','none');
-                    $("div[data-image='" + $this.data('image') + "'] > .caption").css('display','block');
-                });
+            $('.caption').each(function() {
+                $(this).css('display','none');
+                $("div[data-image='" + $this.data('image') + "'] > .caption").css('display','block');
+            });
 
-                $(this).find(".row").css("opacity", 1 - ($(window).scrollTop()-$this.position().top) / 100);
+            if($this.data('image') != 'zero1' || $window.height() < 600){
+                console.log($window.height())
+                $(this).find(".row").css("opacity", 1 - ($(window).scrollTop()-$this.position().top) / 50);
+            }
+            else 
+                $(this).find(".row").css("opacity", 1 - ($(window).scrollTop()-$this.position().top) / 50);
 
-                $(this).next().find(".row").css("opacity", ($(window).scrollTop()-$this.position().top) / 300);
+            $(this).next().find(".row").css("opacity", ($(window).scrollTop()-$this.position().top) / 500);
 
-                }
-            });    
-            
+            }
+        });    
+
         }).scroll();
     </script>
 
