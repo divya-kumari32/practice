@@ -11,16 +11,54 @@ h2 {
     font-weight: 900;
 }
 
-.fade {
-    transition: 0.6s;
+/* navbar */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-style: oblique;
 }
 
-.bg-div {
-    z-index:-1;
-    position: fixed;
-    height: 100vh;
-    width: 100%;
+.sidenav a:hover {
+    color: #f1f1f1;
 }
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+
 /*Fonts*/
 
 p {
@@ -115,7 +153,7 @@ p {
 
 .caption {
     position: fixed;
-    right: 5%;
+    right: 8%;
     bottom: 5%;
     max-width: 300px;
 }
@@ -132,14 +170,16 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-transition: 1s;
     max-height: 100vh;
 }
 
 body::-webkit-scrollbar {
-    display: flexbox;
+    display: none;
 }
 
+.fade {
+    transition: 0.5s;
+}
 
 /* panel styles */
 .panel {
@@ -167,11 +207,36 @@ body::-webkit-scrollbar {
 
 /* images */
 
+.logo img {
+    /* float: right; */
+    margin-left: 92%;
+    margin-top: -2%;
+    position: fixed;
+}
+
+#captionbutton {
+    /* margin-top: 80%; */
+    margin-left: 94%;
+    bottom: 8%;
+    position: fixed;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.video-icon a {
+   color: white;
+   position: sticky;
+}
+
+.video-icon a:hover {
+    color: black;
+    text-decoration: none;
+ }
+
 .image-zero1 {
     background:linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
     #403a3a;
-    background-size: cover;
-transition: 1s;   
+    background-size: cover;     
 }
 
 .image-zero {
@@ -179,23 +244,20 @@ transition: 1s;
     linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), 
     url(../img/img_parallax.jpg);
     background-size: cover;
-transition: 1s;
 }
 
 .image-one {
     background-image:
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), 
-        url(../img/img_parallax6.jpg);
+        url(../img/img_parallax2.jpg);
     background-size: cover;
-transition: 1s;
 }
 
 .image-two {
     background-image: 
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
-        url(../img/img_parallax2.jpg);
+        url(../img/img_parallax2_.jpg);
     background-size: cover;
-transition: 1s;
 }
 
 .image-three {
@@ -203,7 +265,6 @@ transition: 1s;
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), 
         url(../img/img_parallax3.jpg);
     background-size: cover;
-transition: 1s;
 }
 
 .image-four {
@@ -211,7 +272,6 @@ transition: 1s;
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
         url(../img/img_parallax4.jpg);
     background-size: cover;
-transition: 1s;
 }
 
 .image-five {
@@ -219,7 +279,6 @@ transition: 1s;
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
         url(../img/test.gif);
     background-size: cover;
-transition: 1s;
 }
 
 .image-seven {
@@ -227,7 +286,6 @@ transition: 1s;
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), 
         url(../img/img_parallax7.jpg);
     background-size: cover;
-transition: 1s;
 }
 
 .image-eight {
@@ -235,7 +293,6 @@ transition: 1s;
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
         url(../img/img_parallax8.jpg);
     background-size: cover;
-transition: 1s;
 }
 
 .image-nine {
@@ -243,7 +300,13 @@ transition: 1s;
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
         url(../img/img_parallax8.jpg);
     background-size: cover;
-transition: 1s;
+}
+
+.image-ten {
+    background-image: 
+        linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
+        url(../img/img_parallax6.jpg);
+    background-size: cover;
 }
 
 .fade-in {
@@ -273,15 +336,14 @@ div {
 .head0 {
     font-size: 1.4rem;
     text-align: center;
-    padding-top: 10%;
-    
 }
 
 .head1 {
-    padding-left: 0px;
+    padding-top: 10%;
     text-align: center;
     font-size: 1.5rem;
     font-weight: bolder;
+    justify-content: center;
 }
 
 .para1 {
