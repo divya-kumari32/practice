@@ -17,7 +17,7 @@ h2 {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 99;
     top: 0;
     left: 0;
     background-color: transparent;
@@ -56,6 +56,50 @@ h2 {
 #main {
     transition: margin-left .5s;
     padding: 20px;
+}
+
+/* Footer */
+
+.cd-footer {
+    color: #ffffff;
+    background: #333333;
+    font-family: Roboto,helvetica,arial,sans-serif;
+}
+
+.footermenu {
+    margin-top: 10%;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    color: #ffffff;
+}
+
+.menu-item {
+    margin-left: 5%;
+}
+
+.menu-item a {
+    color: #ffffff;
+}
+
+.mandate-heading {
+    padding-top: 8%;
+    margin-left: 12%;
+    padding-bottom: 5%;
+}
+
+.cd-mandate {
+    margin-left: 5%;
+}
+
+.mandate-text {
+    margin-left: -4%;
+}
+
+.cd-copyright {
+    margin-right: -5%;
 }
 
 /*Fonts*/
@@ -152,7 +196,7 @@ p {
 
 .caption {
     position: fixed;
-    right: 5%;
+    right: 8%;
     bottom: 5%;
     max-width: 300px;
 }
@@ -192,16 +236,37 @@ body::-webkit-scrollbar {
 
 /* images */
 
+.logo img {
+    /* float: right; */
+    margin-left: 92%;
+    /* margin-top: -3%; */
+    position: fixed;
+}
+
+#captionbutton {
+    /* margin-top: 80%; */
+    margin-left: 94%;
+    bottom: 5%;
+    position: fixed;
+    z-index: 99;
+    cursor: pointer;
+}
+
 .video-icon {
-    position: sticky;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    position: fixed;
+    bottom: 5%;
+    left:2%;
+    z-index: 99;
+}
+
+.video-icon a {
+   color: white;
 }
 
 .video-icon a:hover {
-    background-color: #000;
-}  
+    color: black;
+    text-decoration: none;
+}
 
 .image-zero1 {
     background:linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
@@ -311,7 +376,7 @@ div {
 }
 
 .head2 {
-    padding-left: 8%;
+    /* padding-left: 3%; */
     font-size: 1.3rem;
 }
 

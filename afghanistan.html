@@ -13,6 +13,9 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
 
     <!-- Bootstrap core CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Fullpage CSS-->
     <!-- <link href="css/fullpage.min.css" rel="stylesheet" type="text/css"> -->
@@ -37,6 +40,18 @@
     </div>
 
     <span style="padding-left: 1.5%;font-size:30px;cursor:pointer;color: white;position: sticky;top: 0;left: 0;" onclick="openNav()">&#9776;</span>
+
+    <div class="logo" style="position: right top;">
+        <img src="../practice/img/ochalogo.png" width="60" height="70">
+    </div>
+
+    <div id="captionbutton">
+        <img src="../practice/img/camera.png" width="40" height="40">
+    </div>
+
+    <div class="video-icon">
+        <a style="font-size: 60px;" href="https://youtu.be/Ya06VGBeYvg"><i class="fa fa-play-circle" style="font-size:36px;"></i></a>
+    </div>
 
     <div id="main">
 
@@ -299,27 +314,63 @@
 
         </div>
 
-        <!--==========slide 9 *no bk + full video* ==========-->
-        <div class="panel" data-image="zero1">
-            <div class="row para10">
-                <div class="col-lg-6 offset-lg-1">
-                    <div class="text-with-bk">
-                        <p class="text-original"><span>Watch the video below to learn about the access constraints to humanitarian action in Afghanistan.
-                            </span></p>
-                        <p class="text-duplicate"><span>Watch the video below to learn about the access constraints to humanitarian action in Afghanistan.
-                            </span></p>
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer style="z-index: 100;position: relative;justify-content: center;" class="cd-footer" role="contentinfo">
+        <div class="row">
+            <div class="col-lg-3 col-xl-3">
+                <div class="footermenu">
+                    <ul class="menu">
+                        <li class="menu-item"><a href="https://gho.unocha.org/about">About</a></li>
+                        <li class="menu-item"><a href="https://www.un.org/en/sections/about-website/privacy-notice/">Privacy</a></li>
+                        <li class="menu-item"><a href="https://www.un.org/en/sections/about-website/terms-use/">Terms of use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-xl-4">
+                <div style="font-size: 0.8rem;" class="mandate-heading">Service provided by</div>
+            </div>
+        </div>
+        <div style="padding-bottom: 3%;" class="row">
+            <div class="col-lg-8 col-xl-8">
+                <div class="cd-mandate">
+                    <div class="row">
+                        <div class="col-lg-3 col-xl-3">
+                            <div class="mandate-logo"><img style="width: 149px;height: 37px;" src="../practice/img/footerlogo.png"></div>
+                        </div>
+                        <div class="col-lg-9 col-xl-9">
+                            <div style="font-size: 0.8rem;max-width: 610px;" class="mandate-text text-left">
+                                OCHA coordinates the global emergency response to save lives and protect people in humanitarian crises. We advocate for effective and principled humanitarian action by all, for all.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-6 offset-lg-1">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="700" height="394" src="https://www.youtube.com/embed/rsO3vMinabA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="col-lg-4 col-xl-4">
+                <div style="float: right;position: relative;" class="cd-copyright">
+                    <div class="row">
+                        <div class="col-lg-8 col-xl-8 text-right">
+                            <div style="font-size: 0.8rem;" class="cd-copyright-text">Except where otherwise noted, content on this site is licensed under a <a style="color: white;" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</a> International license.</div>
+                        </div>
+                        <div class="col-lg-4 col-xl-4">
+                            <a class="cd-copyright-link" href="https://creativecommons.org/licenses/by/4.0/">
+                                <svg class="cd-icon cd-icon--cc" width="32" height="32" viewBox="0 0 64 64">
+                                    <path d="M31.957,0.311c-8.682,0-16.322,3.213-22.226,9.203  C3.653,15.678,0.354,23.666,0.354,32c0,8.422,3.212,16.236,9.29,22.313c6.078,6.078,13.978,9.377,22.313,9.377  c8.334,0,16.409-3.299,22.66-9.463c5.904-5.817,9.029-13.544,9.029-22.227c0-8.595-3.125-16.408-9.116-22.399  C48.453,3.523,40.639,0.311,31.957,0.311z M32.043,6.041c7.12,0,13.458,2.691,18.406,7.641c4.862,4.861,7.466,11.286,7.466,18.318  c0,7.119-2.518,13.371-7.379,18.146c-5.123,5.035-11.721,7.727-18.493,7.727c-6.858,0-13.283-2.691-18.232-7.641  C8.862,45.283,6.084,38.772,6.084,32c0-6.858,2.778-13.369,7.727-18.406C18.673,8.646,24.924,6.041,32.043,6.041z"></path>
+                                    <path id="c" d="M31.635,26.734c-1.79-3.264-4.844-4.563-8.389-4.563  c-5.16,0-9.267,3.65-9.267,9.828c0,6.283,3.861,9.829,9.442,9.829c3.581,0,6.635-1.966,8.319-4.949l-3.931-2.001  c-0.878,2.105-2.212,2.738-3.896,2.738c-2.914,0-4.248-2.422-4.248-5.617c0-3.193,1.124-5.616,4.248-5.616  c0.842,0,2.527,0.456,3.51,2.563L31.635,26.734z"></path>
+                                    <use xlink:href="#c" transform="translate(18.281)"></use>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
+
 </body>
 
     <!--Custom JS-->
@@ -347,49 +398,58 @@
     </script>
 
     <script>
+        $("#captionbutton").click(function(){
+            var cap = $('body').attr('class').split("-")[1]
+            
+            if($("div[data-image='" + cap + "'] > .caption").css('display') == "block")
+                $("div[data-image='" + cap + "'] > .caption").css('display','none');
+            else
+                $("div[data-image='" + cap + "'] > .caption").css('display','block');
+        });
+
         $(window).scroll(function() {
 
-        // selectors
-        var $window = $(window),
-            $body = $('body'),
-            $panel = $('.panel');
-
-        // Change 15% earlier than scroll position so colour is there when you arrive.
-        // var scroll = $window.scrollTop() + ($window.height() * 0.05);
-        var scroll = $window.scrollTop() + ($window.height() /1.25);
-        // console.log( $window.scrollTop(),$window.height(),scroll);
-        $panel.each(function () {
-            var $this = $(this);
+            // selectors
+            var $window = $(window),
+                $body = $('body'),
+                $panel = $('.panel');
             
-            // if position is within range of this panel.
-            // So position of (position of top of div <= scroll position) && (position of bottom of div > scroll position).
-            // Remember we set the scroll to 33% earlier in scroll var.
-            if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
-            // Remove all classes on body with color-
-                $body.removeClass(function (index, css) {
-                    return (css.match (/(^|\s)image-\S+/g) || []).join(' ');
-            });
+            // Change 15% earlier than scroll position so colour is there when you arrive.
+            // var scroll = $window.scrollTop() + ($window.height() * 0.05);
+            var scroll = $window.scrollTop() + ($window.height() /1.25);
+            // console.log( $window.scrollTop(),$window.height(),scroll);
+            $panel.each(function () {
+                var $this = $(this);
+                
+                // if position is within range of this panel.
+                // So position of (position of top of div <= scroll position) && (position of bottom of div > scroll position).
+                // Remember we set the scroll to 33% earlier in scroll var.
+                if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
+                // Remove all classes on body with color-
+                    $body.removeClass(function (index, css) {
+                        return (css.match (/(^|\s)image-\S+/g) || []).join(' ');
+                });
 
-            // Add class of currently active div
-            $body.addClass('image-' + $(this).data('image'));
+                // Add class of currently active div
+                $body.addClass('image-' + $(this).data('image'));
 
-            $('.caption').each(function() {
-                $(this).css('display','none');
-                $("div[data-image='" + $this.data('image') + "'] > .caption").css('display','block');
-            });
+                $('.caption').each(function() {
+                    $(this).css('display','none');
+                    // $("div[data-image='" + $this.data('image') + "'] > .caption").css('display','block');
+                });
 
-            if($this.data('image') != 'zero1' || $window.height() < 600){
-                console.log($window.height())
-                $(this).find(".row").css("opacity", 1 - ($(window).scrollTop()-$this.position().top) / 50);
-            }
-            else 
-                $(this).find(".row").css("opacity", 1 - ($(window).scrollTop()-$this.position().top) / 50);
+                if($this.data('image') != 'zero1' || $window.height() < 600){
+                    console.log($window.height())
+                    $(this).find(".row").css("opacity", 1 - ($(window).scrollTop()-$this.position().top) / 100);
+                }
+                else 
+                    $(this).find(".row").css("opacity", 1 - ($(window).scrollTop()-$this.position().top) / 100);
 
-            $(this).next().find(".row").css("opacity", ($(window).scrollTop()-$this.position().top) / 500);
+                $(this).next().find(".row").css("opacity", ($(window).scrollTop()-$this.position().top) / 500);
 
-            }
-        });    
-
+                }
+            });    
+            
         }).scroll();
     </script>
 
