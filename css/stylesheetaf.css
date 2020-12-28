@@ -307,7 +307,7 @@ body::-webkit-scrollbar {
 .image-six {
     background-image: 
         linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)),
-        url(../img/af_slide6.png);
+        url(../img/af_slide6.jpg);
     background-size: cover;
 }
 
